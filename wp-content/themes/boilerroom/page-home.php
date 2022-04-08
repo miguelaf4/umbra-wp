@@ -394,14 +394,14 @@
     </section>
 
     <section id="render">
-        <div class="container-fluid py-60">
+        <div class="container position-relative pt-60 pb-90">
             <div class="row pb-40">
                 <div class="col-12 text-center">
                     <h1>Explora un nuevo estilo de vida</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 px-0">
+                <div class="col-12">
 
                 <div class="swiper swiper-renders">
                         <div class="swiper-wrapper">
@@ -425,9 +425,11 @@
                             </div>
 
                         </div>
-                        <div class="swiper-pagination"></div>
+                        
                     </div>
                 </div>
+
+                <div class="swiper-pagination mt-30"></div>
             </div>
         </div>
     </section>
