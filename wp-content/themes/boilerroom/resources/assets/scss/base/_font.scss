@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Optima';
+    font-style:normal;
+    font-weight: 400;
+    src: url('./resources/assets/fonts/Optima-Regular.woff') format('woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'Trade';
+    font-style:normal;
+    font-weight: 400;
+    src: url('./resources/assets/fonts/TradeGothicLTStd-Extended.woff') format('woff');
+  }
+
+  @mixin display {
+      font-family: 'Trade';
+      font-size: 56px;
+      letter-spacing: 5px;
+      line-height: 120%;
+      text-transform: uppercase;
+
+      @media (max-width: 767.98px){
+          font-size: 38px;
+      }
+  }
+
+  .display {@include display}
+
+  @mixin h1 {
+      font-family: 'Trade';
+      font-size: 24px;
+      @media (max-width: 767.98px){
+        font-size: 21px;
+        }
+  }
+
+  h1, .h1 {@include h1}
+
+  @mixin body-text {
+      font-family: 'Optima';
+      font-size: 16px;
+      line-height: 130%;
+  }
+
+  p, .body-text {@include body-text}

@@ -1,0 +1,20 @@
+footer {
+    color: #b9b9b9;
+    font-size: 14px;
+    padding: 0 60px;
+    @media (max-width: 991.98px){
+        padding: 0;
+    }
+    .footer-logo {
+        height: 60px;
+        width: 45px;
+    }
+
+    .dev-logos {
+        text-align: center;
+        img {
+            height: 80px;
+            object-fit: contain;
+        }
+    }
+}
